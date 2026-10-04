@@ -20,6 +20,10 @@ Install with any SKILL.md assistant:
 
 Or copy the `prompt.md` from any skill folder into a chat.
 
+## Check your own skills: [skill-check](https://github.com/proskillpacks/skill-check)
+
+A portability checker for SKILL.md files. It runs as a GitHub Action, a pre-commit hook or a plain CLI, and flags vendor-specific tool names, paths and frontmatter, plus missing fallbacks. We make it, it is free and open source. Docs: https://proskillpacks.github.io/tools/skill-check/
+
 ## Read and browse
 
 - Catalog: https://proskillpacks.github.io
