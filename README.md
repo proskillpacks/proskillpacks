@@ -1,4 +1,4 @@
-![Pro Skill Packs: tested Agent Skills for the work you do every week](banner.png)
+![Pro Skill Packs: tested skills and ready-made words for the work you do every week](banner.png)
 
 # Pro Skill Packs
 
@@ -30,7 +30,6 @@ Or copy the `prompt.md` from a skill folder into a chat.
 ## Also here
 
 - [shopify-store-skills](https://github.com/proskillpacks/shopify-store-skills): five free skills for Shopify store owners
-- [shopify-chargeback-checklists](https://github.com/proskillpacks/shopify-chargeback-checklists): what proof to send, by chargeback reason
 - [skill-check](https://github.com/proskillpacks/skill-check): a portability checker for SKILL.md files (GitHub Action, pre-commit hook or CLI). Docs: https://proskillpacks.github.io/tools/skill-check/
 - Study: [how portable are the most-installed agent skills](https://proskillpacks.github.io/study/portability/)
 - Paid packs: https://proskillpacks.gumroad.com
