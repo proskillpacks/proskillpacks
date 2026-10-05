@@ -2,34 +2,37 @@
 
 # Pro Skill Packs
 
-*Tested Agent Skills for the work you do every week.*
+*Ready-made words and checklists for the work you do every week.*
 
-We publish skills in the open SKILL.md format for specific jobs: store policies and reviews, SEO and page copy, freelancer admin, developer chores and more. They work in any assistant that reads skills (Claude, Codex, Gemini CLI, Cursor, Copilot and others). Each one also has a paste-in prompt for ChatGPT or any chatbot. We make these, and some are paid.
+We write and test short, plain-text instructions (SKILL.md files) for specific jobs: replies to reviews, late payment emails, performance reviews, store policies and more. They work in any assistant that reads skills (Claude, Codex, Gemini CLI, Cursor, Copilot and others). Each one also has a paste-in prompt for ChatGPT or any chatbot. We make these, and some are paid.
 
-## 12 free skills: [proskillpacks/skills](https://github.com/proskillpacks/skills)
+## Start here
 
-- **E-commerce:** agent-ready-quick-check, chargeback-evidence-checklist, product-title-cleaner, review-reply-drafter, shopify-alt-text-writer, shopify-policy-checker
-- **Marketing and SEO:** ai-search-readiness-check, search-intent-page-brief
-- **Developers:** accessibility-quick-audit, pr-description-and-review-prep
-- **Freelancers:** late-payment-chaser-uk
-- **Writing:** fact-claim-checker
+- Site: https://proskillpacks.github.io
+- [Holiday let hosts](https://proskillpacks.github.io/hosts/): guest review replies, house rules, listing wording
+- [Freelancers](https://proskillpacks.github.io/freelance/): late payment emails, UK interest calculator
+- [Sales](https://proskillpacks.github.io/sales/): follow-up and cold emails
+- [Managers](https://proskillpacks.github.io/managers/): performance review phrases, one-to-one questions
+- [Online store owners](https://proskillpacks.github.io/stores/): review replies, refund and delay emails
+- [Work](https://proskillpacks.github.io/work/): letters for hard moments at work
+- Research: [how we train skills](https://proskillpacks.github.io/research/how-we-train-skills/) with all the code and runs in [skillopt-agent-browse](https://github.com/proskillpacks/skillopt-agent-browse)
+
+## Free skills: [proskillpacks/skills](https://github.com/proskillpacks/skills)
+
+22 free skills grouped by profession: e-commerce, marketing and SEO, freelancers, sales, support, careers, finance, data, writing and developers.
 
 Install with any SKILL.md assistant:
 
     npx skills add proskillpacks/skills
 
-Or copy the `prompt.md` from any skill folder into a chat.
+Or copy the `prompt.md` from a skill folder into a chat.
 
-## Check your own skills: [skill-check](https://github.com/proskillpacks/skill-check)
+## Also here
 
-A portability checker for SKILL.md files. It runs as a GitHub Action, a pre-commit hook or a plain CLI, and flags vendor-specific tool names, paths and frontmatter, plus missing fallbacks. We make it, it is free and open source. Docs: https://proskillpacks.github.io/tools/skill-check/
-
-## Read and browse
-
-- Catalog: https://proskillpacks.github.io
-- Free skills: https://proskillpacks.github.io/free/
-- Install guides: https://proskillpacks.github.io/guides/
-- Study: [how portable are the most-installed agent skills](https://proskillpacks.github.io/study/portability/) (69 skills, public data)
+- [shopify-store-skills](https://github.com/proskillpacks/shopify-store-skills): five free skills for Shopify store owners
+- [shopify-chargeback-checklists](https://github.com/proskillpacks/shopify-chargeback-checklists): what proof to send, by chargeback reason
+- [skill-check](https://github.com/proskillpacks/skill-check): a portability checker for SKILL.md files (GitHub Action, pre-commit hook or CLI). Docs: https://proskillpacks.github.io/tools/skill-check/
+- Study: [how portable are the most-installed agent skills](https://proskillpacks.github.io/study/portability/)
 - Paid packs: https://proskillpacks.gumroad.com
 
 Updates: [@KaiVenturaBuild](https://x.com/KaiVenturaBuild)
